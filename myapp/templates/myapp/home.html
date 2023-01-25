@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;"  >
+    <div >
+        <h1 style="border:orange;"> Hello User!!! </h1>  
+
+    <h2 style="border:orange">This is my own page </h2>
+    {%  for cmp in job.all %}
+    <li>{{cmp.company }} | {{ cmp.descriptions }}</li>
+    {% endfor %}
+
+    <footer>Contact Me: vipulpatil1800@gmail.com</footer>
+</div>
+</body>
+</html>
